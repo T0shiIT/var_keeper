@@ -34,4 +34,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
-          tags: $t0shiru/var_keeper:${{ steps.cut.outputs.sha_short }}
+          tags: t0shiru/var_keeper:${{ steps.cut.outputs.sha_short }}
